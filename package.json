@@ -1,0 +1,31 @@
+{
+  "name": "@edcarroll/hydrate-mongodb-shortid",
+  "version": "1.0.1",
+  "description": "ShortID Generator for hydrate-mongodb",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "dependencies": {
+    "@types/mongodb": "^2.1.36",
+    "@types/rx": "^2.5.34",
+    "@types/shortid": "0.0.28",
+    "hydrate-mongodb": "^1.1.1",
+    "shortid": "^2.2.6"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.4"
+  },
+  "scripts": {
+    "prepublish": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edcarroll/hydrate-mongodb-shortid.git"
+  },
+  "author": "Edward Carroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edcarroll/hydrate-mongodb-shortid/issues"
+  },
+  "homepage": "https://github.com/edcarroll/hydrate-mongodb-shortid#readme"
+}

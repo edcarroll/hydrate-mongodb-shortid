@@ -39,7 +39,6 @@ jspm_packages
 # IntelliJ directory
 .idea
 
-# Non TS files
-*.d.ts
-*.js
-*.js.map
+# TS Files
+*.ts
+!*.d.ts
